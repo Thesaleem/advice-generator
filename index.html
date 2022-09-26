@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/pmg" sizes="32x32">
+    <script defer src="script.js"></script>
+    <title>Advice Generator</title>
+</head>
+<body class="bg-dark-blue h-screen  md:flex md:justify-center md:items-center">
+    <main class="bg-dark-grayish-blue w-11/12 max-w-lg h-80 min-h-fit mt-36 md:mt-0 mx-auto rounded-xl relative flex justify-center">
+        <div class="font-manrope flex flex-col w-full justify-between items-center">
+            <h6 class="text-neon-green text-xs tracking-widest text-center pt-7 pb-5" id="advice-id"></h6>
+            <p class="text-light-cyan text-center text-3xl font-extrabold mx-4 md:mx-6 min-h-fit" id="advice-slip"></p>
+            <div class="w-10/12 h-5 mt-8 mb-16">
+                <div class="bg-pattern-divider-mobile md:bg-pattern-divider-desktop bg-no-repeat bg-center bg-cover w-full h-full mx-auto"></div>
+            </div>
+            <div class="rounded-full bg-neon-green w-16 h-16 flex justify-center items-center absolute -bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer" id="dice">
+                <img src="./images/icon-dice.svg" alt="a black dice icon">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
